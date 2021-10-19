@@ -11,7 +11,7 @@ import plotly.graph_objects as go
 #     columns=('col %d' % i for i in range(20)))
 st.title("Does diet and obesity affect the mortality rate of COVID-19?")
 
-df = pd.read_csv("data\Food_Supply_Quantity_kg_Data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/IDSF21/assignment-2-kchian/main/data/Food_Supply_Quantity_kg_Data.csv")
 
 
 def toggle_demo_mode():
